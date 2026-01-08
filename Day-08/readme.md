@@ -54,7 +54,7 @@ findBestSellingProduct([
   { name: "Laptop", price: 50000, sold: 3 },
   { name: "Mouse", price: 500, sold: 50 },
   { name: "Keyboard", price: 1500, sold: 10 },
-]); // "Mouse"
+]); // "Laptop"
 ```
 
 ---
