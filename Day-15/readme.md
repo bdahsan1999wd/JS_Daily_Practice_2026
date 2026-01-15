@@ -260,7 +260,7 @@ stockMonitor([
 // Result:
 {
   totalStock: 80,
-  lowStock: ["Milk", "Bread"]
+  lowStock: ["Bread"]
 }
 ```
 
