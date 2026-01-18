@@ -63,7 +63,7 @@ const result = expenseAnalyzer([
 /*
 Expected Output:
 {
-  totalExpense: { Ahsan: 5600, Karim: 11500 },
+  totalExpense: { Ahsan: 5600, Karim: 12500 },
   highestSpender: "Karim",
   riskySpenders: ["Karim"],
   stableSpenders: []
@@ -180,7 +180,7 @@ Expected Output:
 {
   totalPatients: { "City Care": 720, "Green Life": 350 },
   mostBusy: "City Care",
-  criticalHospitals: ["City Care"],
+  criticalHospitals: [],
   growingHospitals: ["City Care", "Green Life"]
 }
 */
@@ -238,7 +238,7 @@ Expected Output:
   totalOrders: { "Seller A": 100, "Seller B": 218 },
   topSeller: "Seller B",
   decliningSellers: ["Seller B"],
-  consistentSellers: ["Seller A"]
+  consistentSellers: []
 }
 */
 ```
@@ -294,8 +294,8 @@ Expected Output:
 {
   totalUsage: { "Factory A": 2240, "Factory B": 1000 },
   highestConsumer: "Factory A",
-  inefficientFactories: ["Factory A"],
-  unstableFactories: ["Factory A"]
+  inefficientFactories: [],
+  unstableFactories: []
 }
 */
 ```
