@@ -28,6 +28,7 @@ You analyze daily temperatures of different cities.
 weatherTrendAnalyzer([
   { city: "Dhaka", temps: [28, 30, 32, 33, 35] },
   { city: "Rangpur", temps: [20, 22, 21, 23, 22] },
+  { city: "Cox's Bazar", temps: [34, 36, 37, 38, 40] },
 ]);
 ```
 
