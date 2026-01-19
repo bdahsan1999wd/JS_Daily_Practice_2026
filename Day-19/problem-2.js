@@ -54,11 +54,12 @@ function internetSpeedAnalyzer(data) {
     // Rule 10: Return result
     return { averageSpeed, fastestArea, poorServiceAreas, stableAreas };
 }
+
+// Example Usage
 const internetResult = internetSpeedAnalyzer([
     { area: "Mirpur", speeds: [20, 22, 18, 25, 30] },
     { area: "Dhanmondi", speeds: [50, 48, 47, 49, 50] },
     { area: "Gulshan", speeds: [8, 12, 10, 9, 11] },
 ]);
 
-// Example Usage
 console.log(internetResult);
