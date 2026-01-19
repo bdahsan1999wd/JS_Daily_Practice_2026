@@ -127,7 +127,7 @@ Expected Output:
   averageSpeed: { "Mirpur": 23, "Dhanmondi": 48.8, "Gulshan": 10 },
   fastestArea: "Dhanmondi",
   poorServiceAreas: ["Gulshan"],
-  stableAreas: ["Dhanmondi"]
+  stableAreas: ["Dhanmondi", "Gulshan"]
 }
 */
 ```
